@@ -1,6 +1,6 @@
 # Mi8sG3orMi7pG3-Unlocker 全自动版
 
-小米平板七暂时别用！！！​本项目是同步兼容骁龙 8sg3（Snapdragon 8s Gen3）与7pg3（Snapdragon 7+ Gen3）平台的小米设备打造的一键 BL 解锁辅助工具。通过 8sg3or7pg3-unlock.bat 脚本，实现 HyperOS 2026.02.01 之前补丁系统下的自动化解锁流程。
+本项目是同步兼容骁龙 8sg3（Snapdragon 8s Gen3）与7pg3（Snapdragon 7+ Gen3）平台的小米设备打造的一键 BL 解锁辅助工具。通过 toUnlock.bat 脚本，实现 HyperOS 2026.02.01 之前补丁系统下的自动化解锁流程。
 ---
 
 ### 📱 已适配支持机型
@@ -32,7 +32,7 @@
 ### 🚀 核心功能亮点
 
 * **机型目录对齐：** 脚本运行后会根据你选择的机型自动调用对应文件夹（如 `Redmiturbo3`、`Xiaomipad7pro` 等）内的特定配置文件。
-* **Windows 一键直达：** 专为 Windows 平台设计，直接运行 `8sg3-unlock.bat` 即可，无需配置冗余的 ADB/Fastboot 环境。
+* **Windows 一键直达：** 专为 Windows 平台设计，直接运行 `toUnlock.bat` 即可，无需配置冗余的 ADB/Fastboot 环境。
 * **自动化引导：** 内置完整的中文交互提示，包含驱动自检、机型匹配确认以及解锁前的安全风险告知。
 * **环境兼容性：** 针对 Windows 10/11 优化，确保在解锁高频通讯时数据传输的稳定性。
 
@@ -41,7 +41,7 @@
 ### 🛠️ 使用步骤
 
 1.  **准备阶段：** 手机端开启“开发者选项” -> **USB 调试** 与 **OEM 解锁**，退出小米账号与谷歌账号，并确认已关闭设备查找
-2.  **解锁阶段：** 在 Windows 电脑解压本工具包，双击运行目录下的 `8sg3-unlock.bat'脚本
+2.  **解锁阶段：** 在 Windows 电脑解压本工具包，双击运行目录下的 `toUnlock.bat'脚本
 3.  **状态检测：** 双击运行目录下的 'check-unlock.bat'脚本，将开始自动进行检测bl锁与工程abl状态并给出相应的解决方案
 4.  **Debug：**双击运行目录下的 'adb-tool.bat'脚本，内置adb fastboot环境以调试
 ---
