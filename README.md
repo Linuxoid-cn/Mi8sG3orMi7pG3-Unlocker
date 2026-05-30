@@ -1,6 +1,6 @@
 # Mi8sG3orMi7pG3-Unlocker 全自动版
 **如果需要任何帮助，欢迎在这个频道中交流：**
-> **"If you need any help, feel free to reach out in this channel: https://t.me/kernix_dev"**
+> **"If you need any help, feel free to reach out in this channel: https://t.me/Kernix_dev"**
 
 ---
 目前已支持全版本无视补丁！本项目是同步兼容骁龙 8sg3（Snapdragon 8s Gen3）与7pg3（Snapdragon 7+ Gen3）平台的小米设备打造的一键 BL 解锁辅助工具。通过 toUnlock.bat 脚本，实现 HyperOS 系统下的自动化解锁流程。
